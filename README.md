@@ -1,7 +1,7 @@
 # URL Classification with ML
 Research project (WIP) - evaluating the most effective metrics for predicting malicious URLs using ML.
 ### What dataset is used?
-We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle dataset]().
+We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle dataset](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset/).
 
 ### What metrics will be used?
 **Classification bins:**
