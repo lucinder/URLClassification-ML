@@ -5,7 +5,7 @@ We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle da
 
 ### What metrics will be used?
 **Classification bins:**
-- Benign of malicious
+- Benign (0) or malicious (1)
   
 **Lexical features:**
 - URL Length
@@ -25,4 +25,6 @@ We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle da
   * Path token length standard deviation
 
 **Content features**
-WIP!
+- HTML line count
+- Hyperlink count
+- Iframe count
