@@ -7,7 +7,7 @@ We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle da
 **Classification bins:**
 - Benign (0) or malicious (1)
   
-**Lexical features:**
+**Features:**
 - URL Length
 - URL file extension (.html, .php, .pdf for example)
 - Hostname
@@ -24,7 +24,4 @@ We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle da
   * Path token max length
   * Path token length standard deviation
 
-**Content features**
-- HTML line count
-- Hyperlink count
-- Iframe count
+Note: we were going to use content features, but the amount of 404s and connection problems using this dataset have made it infeasible. Many URLs in this dataset are now depreciated, but still useful for research purposes.
