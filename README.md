@@ -1,9 +1,9 @@
 # URL Classification with ML
-Research project (WIP) - evaluating the most effective metrics for predicting malicious URLs using ML.
+Research project - evaluating the most effective metrics for predicting malicious URLs using ML.
 ### What dataset is used?
 We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle dataset](https://www.kaggle.com/datasets/sid321axn/malicious-urls-dataset/).
 
-### What metrics will be used?
+### What metrics are used?
 **Classification bins:**
 - Benign (0) or malicious (1)
   
@@ -25,3 +25,20 @@ We randomly sampled 60,000 benign and 40,000 malicious urls from [this kaggle da
   * Path token length standard deviation
 
 Note: we were going to use content features, but the amount of 404s and connection problems using this dataset have made it infeasible. Many URLs in this dataset are now depreciated, but still useful for research purposes.
+
+**Results:**
+Table 1 shows the performance metrics of different ML models on the dataset with an 80-20 training-testing split.
+***Table 1: Model Performance Metrics***
+| Model         | Accuracy | Precision | Recall | F1 Score | ROC-AUC |
+|--------------|:-----:|:-----:|:-----:|:-----:|:-----:|
+| Random Forest |  |  |  |  |  |
+| K-Nearest Neighbors |  |  |  |  |  |
+| Logistic Regression |  |  |  |  |  |
+| Stochastic Gradient Descent |  |  |  |  |  |
+| Support Vector Classification |  |  |  |  |  |
+| Naive Bayes |  |  |  |  |  |
+| K-Means Clustering |  |  |  |  |  |
+| Mini-Batch K-Means Clustering |  |  |  |  |  |
+| Spectral Clustering |  |  |  |  |  |
+| Gaussian Mixture Model |  |  |  |  |  |
+| Gaussian Naive Bayes |  |  |  |  |  |
